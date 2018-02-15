@@ -27,14 +27,7 @@ public class FragmentMenuPrincipal  extends Fragment implements View.OnClickList
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         mFragmentView = inflater.inflate(R.layout.fragment_menu_1, container, false);
 
-        buttons.add(mFragmentView.findViewById(R.id.conheca));
-        buttons.add(mFragmentView.findViewById(R.id.sirva));
-        buttons.add(mFragmentView.findViewById(R.id.conectese));
-        buttons.add(mFragmentView.findViewById(R.id.audio_video));
-        buttons.add(mFragmentView.findViewById(R.id.eventos));
-        buttons.add(mFragmentView.findViewById(R.id.noticias));
-        buttons.add(mFragmentView.findViewById(R.id.mensagem));
-        buttons.add(mFragmentView.findViewById(R.id.doe));
+
 
         for(int i=0;i<buttons.size();i++){
             buttons.get(i).setOnClickListener(this);
@@ -59,20 +52,6 @@ public class FragmentMenuPrincipal  extends Fragment implements View.OnClickList
     public void onClick(View view) {
 
         switch (view.getId()) {
-
-            case R.id.conheca:
-
-                break;
-
-
-            case R.id.sirva:
-
-                break;
-
-
-            case R.id.conectese:
-
-                break;
 
 
             case R.id.audio_video:

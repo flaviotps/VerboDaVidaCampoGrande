@@ -33,21 +33,21 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <include
-                layout="@layout/layout_button_conheca"
+                layout="@layout/layout_button_verbo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
 
             <include
-                layout="@layout/layout_button_sirva"
+                layout="@layout/layout_button_igreja"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
 
 
             <include
-                layout="@layout/layout_button_conectese"
+                layout="@layout/layout_button_lideranca"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1" />
