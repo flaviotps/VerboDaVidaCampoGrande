@@ -5,8 +5,8 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:foreground="@drawable/card_ripple"
     android:clickable="true"
+    android:foreground="@drawable/card_ripple"
     card_view:cardBackgroundColor="@color/buttonColor4"
     card_view:cardCornerRadius="0dp"
     card_view:cardElevation="4dp"
@@ -27,11 +27,11 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:scaleType="fitCenter"
+            android:src="@drawable/audio_video"
             android:tint="@android:color/white"
             card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toTopOf="parent"
-            android:src="@drawable/audio_video" />
+            card_view:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView3"
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:text="Audio e videos"
+            android:text="Áudios e Vídeos"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textStyle="bold"

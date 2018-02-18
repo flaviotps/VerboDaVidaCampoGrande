@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/play_pause"
+        android:icon="@drawable/pause"
+        android:title="Resume"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/play_tint"
+        android:title="Pĺay"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/stop"
+        android:icon="@drawable/stop"
+        android:title="Stop"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications"
+        app:showAsAction="never" />
+
+</menu>

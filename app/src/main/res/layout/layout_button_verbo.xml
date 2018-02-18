@@ -5,8 +5,8 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:foreground="@drawable/card_ripple"
     android:clickable="true"
+    android:foreground="@drawable/card_ripple"
     card_view:cardBackgroundColor="@color/buttonColor1"
     card_view:cardCornerRadius="0dp"
     card_view:cardElevation="4dp"
@@ -19,28 +19,14 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginBottom="4dp"
-            android:layout_marginTop="4dp"
+            android:layout_width="98dp"
+            android:layout_height="77dp"
+            android:src="@drawable/igreja"
             android:tint="@android:color/white"
-            card_view:layout_constraintBottom_toTopOf="@+id/textView3"
+            card_view:layout_constraintBottom_toBottomOf="parent"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toTopOf="parent"
-            android:src="@drawable/heartpulses" />
+            card_view:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            android:text="Verbo da vida"
-            android:textAlignment="center"
-            android:textColor="@android:color/white"
-            android:textStyle="bold"
-            card_view:layout_constraintBottom_toBottomOf="parent"
-            card_view:layout_constraintEnd_toEndOf="@+id/imageView"
-            card_view:layout_constraintStart_toStartOf="parent" />
     </android.support.constraint.ConstraintLayout>
 </android.support.v7.widget.CardView>
